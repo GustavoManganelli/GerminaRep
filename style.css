@@ -1,0 +1,106 @@
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030b12;
+}
+table{
+    border-spacing: 20px;
+}
+.info{
+    height: 100px;
+    text-align: center;
+    
+}
+section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(18, 2, 145);
+    color: white;
+}
+th{
+    text-align: start;
+    font-size: x-large;
+    color: white;
+    border-radius: 7px;
+}
+td{
+    border-radius: 7px;
+    border: white;
+    border-style: solid;
+
+}
+entrar{
+    width: 90px;
+    font-size: medium;
+    border-radius: 5px;
+    text-align: center;
+}
+p{
+    color: white;
+    box-shadow: rgb(255, 255, 255);
+}
+#table2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+input{
+    height: 34px;
+    width: 300px;
+}
+form{
+    align-items:center;
+}
+#logo{
+    margin-left: 20px;
+}
+footer{
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    background-color:rgb(18, 2, 145);
+}
+img{
+    color: white; 
+    text-align: center; 
+    transition: all 0.6s ease;
+    transition: background-color 0.6s ease, transform 0.6s ease;
+}
+.click{
+    text-align: center;
+    align-content: center;
+}
+.click :hover {
+    transform: scale(1.02);
+    opacity: 0.7;
+    cursor: pointer;
+}
+a:hover{
+    color: red;
+}
+#entrar:hover{
+    transform: scale(1.02);
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+.Sobre{
+    width: 120px;
+    color: black;
+    padding: 1px;
+    border-radius: 7px;
+    margin-right: 20px;
+
+}
+.botaoSobre:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.02);
+    color: red;
+}

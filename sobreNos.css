@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #030b12;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(18, 2, 145);
+    color: white;
+}
+
+#entrar {
+    width: 90px;
+    font-size: x-large;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#entrar:hover {
+    transform: scale(1.02);
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+input {
+    height: 34px;
+    width: 300px;
+}
+
+img {
+    color: white;
+    text-align: center;
+    transition: all 0.6s ease;
+    transition: background-color 0.6s ease, transform 0.6s ease;
+}
+
+.click {
+    text-align: center;
+    align-content: center;
+}
+
+.click :hover {
+    transform: scale(1.02);
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#textoPrincipal {
+    color: white;
+    margin: 5px;
+}
+
+main {
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+    margin-top: 150px;
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    text-align: justify;
+}
