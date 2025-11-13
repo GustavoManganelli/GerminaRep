@@ -66,3 +66,13 @@ p{
     margin-left: 5px;
     font-size: 50px;
 }
+.botaoSobre:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(1.02);
+    color: red;
+}
+.botaoSobre{
+    color: white;
+    margin-right: 5px;
+}

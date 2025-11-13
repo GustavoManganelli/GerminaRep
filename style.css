@@ -23,6 +23,7 @@ header{
     align-items: center;
     background-color: rgb(18, 2, 145);
     color: white;
+    padding-right: 3%;
 }
 th{
     text-align: start;
@@ -36,12 +37,7 @@ td{
     border-style: solid;
 
 }
-entrar{
-    width: 90px;
-    font-size: medium;
-    border-radius: 5px;
-    text-align: center;
-}
+
 p{
     color: white;
     box-shadow: rgb(255, 255, 255);
@@ -103,4 +99,8 @@ a:hover{
     opacity: 0.7;
     transform: scale(1.02);
     color: red;
+}
+.botaoSobre{
+    color: white;
+    margin-right: 5px;
 }
