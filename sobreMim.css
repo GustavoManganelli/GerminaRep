@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    font-size: large;
     margin: 0;
     padding: 0;
     background-color: #030b12;
@@ -33,26 +34,6 @@ input {
     width: 300px;
 }
 
-img {
-    text-align: center;
-    transition: all 0.6s ease;
-    transition: background-color 0.6s ease, transform 0.6s ease;
-}
-
-.click {
-    text-align: center;
-    align-content: center;
-}
-
-.click :hover {
-    transform: scale(1.02);
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-li{
-}
-
 main {
     margin-top: 50px;
     margin-left: 160px;
@@ -62,9 +43,10 @@ main {
 img {
     border-radius: 7px;
 }
+
 section{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .botaoSobre:hover{
     cursor: pointer;
@@ -85,4 +67,21 @@ section{
     align-content: center;
 }
 .curiosidades{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+a:hover{
+    color: red;
+}
+a{
+    color: white;
+    font-size: large;
+}
+.lugares{
+    display: flex;
+    justify-content: space-around;
+}
+#lugaresConheco{
+    margin-right: 120px;
 }
